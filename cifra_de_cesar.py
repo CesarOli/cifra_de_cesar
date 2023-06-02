@@ -9,8 +9,14 @@ def cidraDeCesar():
         
     mensagemCifrada = ''
     mensagem = str(input('Escreva a mesangem que deseja criptografar: '))
+    sleep(1.5)
+    print('Salvando informações, aguarde um momento por favor...')
+    sleep(3.5)
     deslocarLetra = int(input('O deslocamento da letra será em quantas posições, '
                     'informe em números inteiros, por favor: '))
+    sleep(1)
+    print('Salvando deslocamento...aguarde mais um momento')
+    sleep(1.5)
     for letra in mensagem:
         if letra.isalpha():        
             if letra.isupper():
@@ -27,8 +33,13 @@ def cidraDeCesar():
             mensagemCifrada += letra
 
     return mensagemCifrada
-
+print('Aguarde um momento...carrengando informaçoes')
+sleep(2)
 mensagemCifrada = cidraDeCesar()
+print('Salvando mensagem digitada')
+sleep(1.5)
+print('Aguarde um momento...')
+sleep(3)
 print('Mensagem Cifrada:', mensagemCifrada)
 print('Fim!!!')
 
