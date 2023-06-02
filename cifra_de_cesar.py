@@ -1,3 +1,8 @@
+
+'''Código do modelo Cifra de César
+   Usuário escolhe a quantidade de deslocamento das letras.
+'''
+
 from time import sleep
 
 def cidraDeCesar():
