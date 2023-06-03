@@ -36,11 +36,14 @@ def cidraDeCesar():
 print('Aguarde um momento...carrengando informaçoes')
 sleep(2)
 mensagemCifrada = cidraDeCesar()
-print('Salvando mensagem digitada')
+print('Criptografando sua mensagem...')
 sleep(1.5)
 print('Aguarde um momento...')
 sleep(3)
 print('Mensagem Cifrada:', mensagemCifrada)
+sleep(2)
+print('Obrigado!!')
+sleep(1)
 print('Fim!!!')
 
 
