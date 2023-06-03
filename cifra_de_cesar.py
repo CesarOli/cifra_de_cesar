@@ -7,7 +7,7 @@ from time import sleep
 
 def cidraDeCesar():
         
-    mensagemCifrada = ''
+    #mensagemCifrada = ''
     mensagem = str(input('Escreva a mesangem que deseja criptografar: '))
     sleep(1.5)
     print('Salvando informações, aguarde um momento por favor...')
