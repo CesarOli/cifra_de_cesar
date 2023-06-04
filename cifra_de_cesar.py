@@ -32,16 +32,16 @@ def cifraDeCesar():
         else:
             mensagemCifrada += letra
 
-    return mensagemCifrada
+    return mensagem, mensagemCifrada
 
 def reverterMensagem(mensagem):
     mensagemRevertida = mensagem[::-1]
     return mensagemRevertida
 
-
+while True:
     print('Aguarde um momento...carrengando informaçoes')
     sleep(2)
-    mensagemCifrada = cifraDeCesar()
+    mensagemDigitadaPeloUsuario, mensagemCifrada = cifraDeCesar()
     print('Criptografando sua mensagem...')
     sleep(1.5)
     print('Aguarde um momento...')
@@ -51,10 +51,14 @@ def reverterMensagem(mensagem):
 
     resposta = input('Você deseja cifrar uma nova mensagem? Digite "s" ou "n", por favor.')
     if resposta.lower() != 's':
-        reverterMensagem = input('Você deseja reverter a primeira mensagem que você digitou? Digite "s" ou "n", por favor.')
-        if reverterMensagem == 's':
-print('Obrigado!!')
-sleep(1)
+        desejaMensagem = input('Você deseja reverter a última mensagem digitada? Digite "s" ou "n", por favor.')
+        if desejaMensagem == 's':
+            mensagemRevertida = reverterMensagem(mensagemCifrada)
+            print('Revertendo a mensagem...')
+            sleep(1.5)
+            print('Mensagem Revertida: ',mensagemRevertida )
+            print('Mensagem Original:', mensagemDigitadaPeloUsuario)
+        print('Obrigado!!')
+        sleep(1)
+        break
 print('Fim!!!')
-
-
