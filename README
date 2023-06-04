@@ -16,10 +16,15 @@ Exemplo 2:
 Letra original - "B"
 Letra Cifrada - "E"
 
-Aprendizados adquiridos neste projeto e código: 
+Neste projeto, foram utilizadas duas formas de criptografar:
+
+Primeiro: Deslocamento positivo, onde o usuário escolhe a quantidade em números inteiros do deslocamento das letras.
+Segundo: Deslocamento negativo, fixado em oito posições negativas.
+
+Aprendizados adquiridos neste projeto: 
 Criptografia por Substituição, Deslocamento e aritmetica modular, Manipulação de Strings.
 
-Destaco aqui os aprendizados e sua implementação:
+Destaco aqui os aprendizados e sua implementação atráves do código:
 
 
 Funcionalidades da Aplicação desenvolvida neste projeto:
@@ -30,5 +35,5 @@ Funcionalidades da Aplicação desenvolvida neste projeto:
 - Exibição da mensagem cifrada.
 
 
-Você pode me contatar pelo meu Linkedin:
+Você pode me contatar através do meu Linkedin:
 https://www.linkedin.com/in/cesaroli/
