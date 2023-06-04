@@ -3,10 +3,9 @@ A Cifra de César
 
 Descrição
 Cifra de César é uma técnica antiga e simples de criptografia por substituição.
-Este tipo de criptografia foi bastante utilizada pelo Imperador Romano Júlio César, e por isso este nome, Cifra de César.
-Consiste em deslocar cada letra do alfabeto por um número fixo de posições.
+Este tipo de criptografia foi bastante utilizada pelo Imperador Romano Júlio César, e por isso este nome, Cifra de César. Sendo a sua criptografia fixada em trÊs posições.
 
-Deslocamento de letras, exemplo em três posições:
+Exemplo de deslocamento da Cifra de César:
 
 Exemplo 1:
 Letra original - "A" 
@@ -16,9 +15,10 @@ Exemplo 2:
 Letra original - "B"
 Letra Cifrada - "E"
 
-Neste projeto, foram utilizadas duas formas de criptografar:
+Neste projeto, utilizei algumas variações da Cifra de César:
 
-Primeiro: Deslocamento positivo, onde o usuário escolhe a quantidade em números inteiros do deslocamento das letras.
+Primeiro: Deslocamento positivo, onde o usuário escolhe a quantidade em números inteiros do deslocamento das letras, e após a mensagem ser cifrada, é solicitado ao usuário se ele deseja reverter a operação.
+
 Segundo: Deslocamento negativo, fixado em oito posições negativas.
 
 Aprendizados adquiridos neste projeto: 
