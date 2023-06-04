@@ -8,9 +8,9 @@ from time import sleep
 def cidraDeCesar():
         
     #mensagemCifrada = ''
-    mensagem = str(input('Escreva a mesangem que deseja criptografar: '))
+    mensagem = str(input('Digite a mesangem que você deseja criptografar: '))
     sleep(1.5)
-    print('Salvando informações, aguarde um momento por favor...')
+    print('Salvando informações, aguarde....')
     sleep(3.5)
     deslocarLetra = int(input('O deslocamento da letra será em quantas posições, '
                     'informe em números inteiros, por favor: '))

@@ -1,0 +1,34 @@
+Título
+A Cifra de César 
+
+Descrição
+Cifra de César é uma técnica antiga e simples de criptografia por substituição.
+Este tipo de criptografia foi bastante utilizada pelo Imperador Romano Júlio César, e por isso este nome, Cifra de César.
+Consiste em deslocar cada letra do alfabeto por um número fixo de posições.
+
+Deslocamento de letras, exemplo em três posições:
+
+Exemplo 1:
+Letra original - "A" 
+Letra cifrada - "D"
+
+Exemplo 2: 
+Letra original - "B"
+Letra Cifrada - "E"
+
+Aprendizados adquiridos neste projeto e código: 
+Criptografia por Substituição, Deslocamento e aritmetica modular, Manipulação de Strings.
+
+Destaco aqui os aprendizados e sua implementação:
+
+
+Funcionalidades da Aplicação desenvolvida neste projeto:
+- Solicitação ao usuário que digite o texto a ser cifrado.
+- Implementação da lógica para aplicar o deslocamento, letras são deslocada de acordo com a quantidade de posições inserida pelo usuário, sendo necessário informar a quantidade de deslocamento atraves de números inteiros.
+- Realização da manipulação de strings para aplicar o deslocamento, considerando se as letras digitadas são maiúsculas ou minúsculas.
+- Tratamento de sinais, garantindo que seja aplicado esta funcionalidade, invertendo o sinal, se necessário.
+- Exibição da mensagem cifrada.
+
+
+Você pode me contatar pelo meu Linkedin:
+https://www.linkedin.com/in/cesaroli/
