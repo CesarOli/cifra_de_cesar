@@ -5,9 +5,9 @@
 
 from time import sleep
 
-def cidraDeCesar():
+def cifraDeCesar():
         
-    #mensagemCifrada = ''
+    mensagemCifrada = ''
     mensagem = str(input('Digite a mesangem que você deseja criptografar: '))
     sleep(1.5)
     print('Salvando informações, aguarde....')
@@ -33,15 +33,26 @@ def cidraDeCesar():
             mensagemCifrada += letra
 
     return mensagemCifrada
-print('Aguarde um momento...carrengando informaçoes')
-sleep(2)
-mensagemCifrada = cidraDeCesar()
-print('Criptografando sua mensagem...')
-sleep(1.5)
-print('Aguarde um momento...')
-sleep(3)
-print('Mensagem Cifrada:', mensagemCifrada)
-sleep(2)
+
+def reverterMensagem(mensagem):
+    mensagemRevertida = mensagem[::-1]
+    return mensagemRevertida
+
+
+    print('Aguarde um momento...carrengando informaçoes')
+    sleep(2)
+    mensagemCifrada = cifraDeCesar()
+    print('Criptografando sua mensagem...')
+    sleep(1.5)
+    print('Aguarde um momento...')
+    sleep(3)
+    print('Mensagem Cifrada:', mensagemCifrada)
+    sleep(2)
+
+    resposta = input('Você deseja cifrar uma nova mensagem? Digite "s" ou "n", por favor.')
+    if resposta.lower() != 's':
+        reverterMensagem = input('Você deseja reverter a primeira mensagem que você digitou? Digite "s" ou "n", por favor.')
+        if reverterMensagem == 's':
 print('Obrigado!!')
 sleep(1)
 print('Fim!!!')
