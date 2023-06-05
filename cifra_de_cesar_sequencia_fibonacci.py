@@ -1,9 +1,10 @@
 from time import sleep
 
-def cifra_de_cesar_negativo():
-    mensagem = str(input('Digite a mensagem que voce deseja criptografar: '))
-    sleep(1.5)
-    print('Salvando a mensagem digitada, aguarde...')
-    sleep(3.5)
+def sequenciaDeFibonacci(n):
+    sequenciaFibonacci = [0,1]
+    while len(sequenciaFibonacci) < n:
+        proximoNumero = sequenciaFibonacci[-1] + sequenciaFibonacci[-2]
+        sequenciaFibonacci.append(proximoNumero)
+    return sequenciaFibonacci
     
 
