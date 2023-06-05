@@ -3,7 +3,7 @@ A Cifra de César
 
 Descrição
 Cifra de César é uma técnica antiga e simples de criptografia por substituição.
-Este tipo de criptografia foi bastante utilizada pelo Imperador Romano Júlio César, e por isso este nome, Cifra de César. Sendo a sua criptografia fixada em trÊs posições.
+Este tipo de criptografia foi bastante utilizada pelo Imperador Romano Júlio César, e por isso este nome, Cifra de César. Sendo a sua criptografia fixada em três posições.
 
 Exemplo de deslocamento da Cifra de César:
 
@@ -15,22 +15,21 @@ Exemplo 2:
 Letra original - "B"
 Letra Cifrada - "E"
 
-Neste projeto, utilizei algumas variações da Cifra de César:
+Neste projeto, foram utilizadas duas variações da Cifra de César:
 
-Primeiro: Deslocamento positivo, onde o usuário escolhe a quantidade em números inteiros do deslocamento das letras, e após a mensagem ser cifrada, é solicitado ao usuário se ele deseja reverter a operação.
+Primeira Variação: Deslocamento positivo, onde o usuário digita a mensagem que deseja criptografar e informa também em números inteiros a quantidade do deslocamento das letras, e após a mensagem ser cifrada, é solicitado ao usuário se ele deseja reverter a operação, fazendo que a mensagem digitada por ele inicialmente seja impressa pelo programa depois disso o programa é encerrado.
 
-Segundo: Deslocamento negativo, fixado em oito posições negativas.
+Segunda Variação: Deslocamento variável com base em um padrão especifico, e neste caso foi definido a deslocar de acordo com a Sequência de Fibonacci, neste arquivo a mensagem criptografada é impressa na tela, depois disso o programa é encerrado.
 
 Aprendizados adquiridos neste projeto: 
-Criptografia por Substituição, Deslocamento e aritmetica modular, Manipulação de Strings.
-
-Destaco aqui os aprendizados e sua implementação atráves do código:
+Criptografia por Substituição, Deslocamento e aritmetica modular, Cálculo de Fibonacci, Manipulação de Strings.
 
 
 Funcionalidades da Aplicação desenvolvida neste projeto:
 - Solicitação ao usuário que digite o texto a ser cifrado.
-- Implementação da lógica para aplicar o deslocamento, letras são deslocada de acordo com a quantidade de posições inserida pelo usuário, sendo necessário informar a quantidade de deslocamento atraves de números inteiros.
+- Implementação da lógica para aplicar o deslocamento, letras são deslocada de acordo com a quantidade de posições inserida pelo usuário, sendo necessário informar a quantidade de deslocamento atraves de números inteiros, e também criação do deslocamento após o cálculo da Sequência de Fibonacci.
 - Realização da manipulação de strings para aplicar o deslocamento, considerando se as letras digitadas são maiúsculas ou minúsculas.
+-Iteração com o usuário, com a possibilidade do próprio usuário digitar uma nova mensagem que será criptografada, e também com a opção de visualizar sua mensagem digitada no início do programa.
 - Tratamento de sinais, garantindo que seja aplicado esta funcionalidade, invertendo o sinal, se necessário.
 - Exibição da mensagem cifrada.
 
