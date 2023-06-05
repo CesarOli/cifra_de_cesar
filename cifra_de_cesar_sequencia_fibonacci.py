@@ -33,20 +33,12 @@ def cifraDeCesar():
     
     return mensagemCifrada
 
-while True:
-    print('Aguarde um momento...carregando informações.')
-    sleep(2)
-    mensagemCifrada = cifraDeCesar()
-    print('Criptografando sua mensagem com base na Sequência de Fibonacci.')
-    sleep(1.1)
-    print('Aguarde um momento.')
-    sleep(3.5)
-    print('Mensagem Cifrada:', mensagemCifrada)
-    sleep(2)
-
-    resposta = input('Você deseja cifrar uma nova mensagem? Digite "s" ou "n": ')
-    if resposta.lower() != 's':
-        print('Obrigado!!')
-        sleep(1)
-        break
+print('Aguarde um momento...carregando informações.')
+sleep(2)
+mensagemCifrada = cifraDeCesar()
+print('Criptografando sua mensagem com base na Sequência de Fibonacci.')
+sleep(1.1)
+print('Aguarde um momento.')
+sleep(3.5)
+print('Mensagem Cifrada:', mensagemCifrada)
 print('Fim!!')
